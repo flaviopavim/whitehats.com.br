@@ -1,0 +1,412 @@
+/* 
+    Created on : 20 de out. de 2023, 20:30:32
+    Author     : Flávio Pavim
+*/
+
+/* Estilos gerais */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    /*background-color: #f0f0f0;*/
+    background-color: #fff;
+}
+
+header {
+    background-color: #1b1b1b;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0 30px;
+}
+
+header img {
+    width: 300px;
+}
+
+header h2 {
+    font-size: 23px;
+}
+
+/*nav ul {
+    list-style: none;
+    text-align: center;
+    background-color: #444;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+}*/
+
+/* Estilos para o nav */
+/*nav ul {
+    list-style: none;
+    text-align: center;
+    background-color: #444;
+    margin: 0;
+    padding: 0;
+    height: 60px;  Altura do menu aumentada 
+    line-height: 60px;  Altura do menu aumentada 
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 20px;
+}*/
+
+nav {
+    /*padding: 0px;*/
+    background-color: #0b0b0b;
+    /*minheight: 60px;*/
+}
+
+nav ul li a {
+    display: block;
+    width: 100%;
+    text-align: center;
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    padding: 15px; /* Espaçamento interno para tornar o link mais alto */
+    transition: background-color 0.3s; /* Transição para a cor de fundo */
+}
+
+nav ul li a:hover {
+    color: #ddd;
+    background-color: #1b1b1b; /* Cor de fundo ao passar o mouse */
+    /*border-radius: 5px;  Cantos arredondados */
+    text-decoration: none;
+}
+
+section {
+    padding: 40px;
+}
+
+
+section:nth-child(even) {
+    background-color: #f3f3f3;
+}
+
+h2 {
+    /*color: #333;*/
+    margin: 0;
+    padding: 0;
+}
+
+footer {
+    /*text-align: center;*/
+    background-color: #333;
+    color: #fff;
+    padding: 10px 0;
+}
+
+.br-30 {
+    clear: both;
+    height: 30px;
+}
+
+.video {
+    width: 100%;
+    aspect-ratio: auto 16/9;
+}
+
+
+
+/* Estilos específicos para seções */
+/*#construcao-sites {
+    background-color: #fff;
+}
+
+#desenvolvimento-apps {
+    background-color: #eee;
+}
+
+#programas-desktop {
+    background-color: #fff;
+}
+
+#automacao-processos {
+    background-color: #eee;
+}
+
+#testes-seguranca {
+    background-color: #fff;
+}*/
+
+
+
+
+
+
+
+
+
+
+
+
+#construcao-sites .col-md-6 p {
+    text-align: justify;
+}
+#desenvolvimento-apps .col-md-6 p {
+    text-align: justify;
+}
+
+
+
+
+
+
+
+
+/* Estilos para a seção de trabalhos */
+#nossos-trabalhos {
+    /*text-align: center;*/
+    padding: 40px 0;
+    /*background-color: #f9f9f9;*/
+}
+
+.section-header {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+/*.section-header h2 {
+    font-size: 2rem;
+    color: #333;
+}*/
+
+.section-header p {
+    /*font-size: 1rem;*/
+    /*color: #666;*/
+}
+
+.divider {
+    border-top: 1px solid #ccc;
+    margin: 20px auto;
+    width: 80px;
+}
+
+/* Estilos para o carrossel */
+.carousel {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.carousel-item {
+    /*text-align: center;*/
+    padding: 20px;
+}
+
+.carousel-item img {
+    max-width: 100%;
+    height: auto;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+.carousel-item p {
+    font-size: 1rem;
+    color: #666;
+}
+
+
+
+
+
+
+
+
+
+
+
+#contact {
+    background-color: #333;
+    color: #fff;
+    padding: 40px 0;
+}
+
+#contact h2 {
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+#contact p {
+    font-size: 18px;
+    margin-bottom: 30px;
+}
+
+form input,
+form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: none;
+    background-color: #444;
+    color: #fff;
+}
+form textarea {
+    height: 200px;
+    resize: none;
+}
+
+form button {
+    background-color: #444;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+
+    float: right;
+}
+
+/* Estilo do rodapé (footer) */
+footer {
+    background-color: #222;
+    color: #fff;
+    /*text-align: center;*/
+    padding: 20px 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Estilos gerais para o footer */
+footer {
+    background-color: #222;
+    color: #fff;
+    padding: 30px 0;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.footer-left, .footer-center, .footer-right {
+    flex: 0 0 30%;
+}
+
+.footer-right {
+    text-align: right;
+}
+
+/* Estilos para as listas de links */
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+ul li {
+    /*margin-bottom: 10px;*/
+}
+
+ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+/* Estilos para os ícones de redes sociais */
+.social-icons a {
+    font-size: 15px;
+    color: #fff;
+    margin-right: 10px;
+}
+.social-icons a:hover {
+    text-decoration: none;
+}
+
+.social-icons img {
+    width: 20px;
+}
+
+/* Estilos para a caixa de inscrição na newsletter */
+.newsletter-form {
+    /*display: flex;*/
+    /*flex-direction: column;*/
+    /*align-items: center;*/
+}
+
+.newsletter-form input {
+    padding: 10px;
+    margin-bottom: 10px;
+    width: 100%;
+}
+
+.newsletter-form button {
+    background-color: #fff;
+    color: #333;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+/* Estilos para o aviso de direitos autorais */
+.footer-copyright {
+    text-align: center;
+    margin-top: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+#right {
+    position: fixed;
+    z-index: 8;
+}
+#right {
+    top: 200px;
+    right: 0;
+}
+#right a {
+    display: table;
+    padding: 8px;
+    background-color: #fff;
+    border-radius: 4px 0 0 4px;
+    text-align: right;
+    float: right;
+}
+#right a img {
+    width: 30px;
+}
+#right a img:hover {
+    width: 40px;
+    -webkit-transition: width 0.2s ease-in-out;
+    -moz-transition: width 0.2s ease-in-out;
+    -o-transition: width 0.2s ease-in-out;
+    transition: width 0.2s ease-in-out;
+}
